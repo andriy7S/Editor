@@ -38,7 +38,8 @@ public class Login extends JPanel implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
-		
+		add(new Register(), "register");
+		cl.show(this, "register");	
 	}
 	
 	public static void main(String[] args) {
